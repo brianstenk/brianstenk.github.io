@@ -18,7 +18,7 @@ h1, h2{
     font-family: Lucida Helvetica Arial sans-serif serif;
     text-align: left;
     font-size: 18pt;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.2em;
     width: 100%;
     background-color: #F0F0F0;
 }
@@ -56,12 +56,11 @@ a{
 .img2,.img1{
     align-items: flex-end;
     text-align: right;
-    align-items: right;
     float: right;
 }
 
 .copyright{  
-    padding-top: 40pts;
+    padding-top: 10pt;
     font-family: monospace;
     text-align: right;
     
