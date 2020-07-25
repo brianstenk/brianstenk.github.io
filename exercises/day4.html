@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>quiz question4</title>
+    <style>
+
+     #parent-container {
+            display: grid;
+            grid-template-columns: 120px 200px;
+            max-width: 500px;
+            grid-gap: 10px;
+            /* background-color: brown;
+            visibility: visible; */
+               
+        }
+        .label {
+            padding: 10px;
+            padding-bottom: 0px;
+            
+                    
+        }
+    
+     input[type = "text"] {
+      font-weight: bold;
+      font-family:monospace;
+      border-radius: 12px;
+      width: 200px;
+      height: 25px;
+      padding-bottom: 8px;
+      
+    }
+
+    #food_select{
+        border-radius: 8px; 
+        width: 150px;
+        height: 25px;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset id="parent-container">
+            <legend>Party Info</legend>
+            <div class="label">First Name:</div>
+            <div><input type="text" name="first" /></div>
+            <div class="label">Last Name:</div>
+            <div><input type="text" name="last" /></div>
+            <div class="label">Favorite Food:</div>
+            <div>
+                <select name="food" id = "food_select">
+                    <option>Pizza</option>
+                    <option>Ice Cream</option>
+                    <option>Burger and Fries</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- javascript -->
+    <div>alert("Hello World");</div>
+</body>
+
+</html>
+
+<!-- 
+    input[type=text] {
+    font-family: monospace;
+} 
+-->
