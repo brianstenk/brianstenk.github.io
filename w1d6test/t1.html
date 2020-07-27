@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <title>Solution to 3</title>
+    <style>
+ 
+        div {
+            min-height: 150px;
+        }
+        #parent-container {
+            display: grid;
+            grid-template-columns: 3;
+            grid-template-rows: 2;
+        }
+        #col1-some {
+            grid-row: 1 / span 2;
+            background-color: #CCC;
+        }
+        #col2-text {
+            grid-column: 2 / span 2;
+            background-color: #BBB;
+        }
+        #col3-here {
+            background-color: #EEE;
+        }
+        #col4-there {
+            background-color: #CCC;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="parent-container">
+
+        <div id="col1-some">some</div>
+        <div id="col2-text">text</div>
+        <div id="col3-here">here</div>
+        <div id="col4-there">there</div>
+
+    </div>
+</body>
+
+</html>
