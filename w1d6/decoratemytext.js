@@ -45,6 +45,7 @@ function normalise(){
 }
 
 function fontByTime(){
-  setInterval(fontSizeby2,2000);
+  //setTimeInterval(fontSizeby2,2000);
+  setTimeout(fontSizeby2,2000);
 }
 };

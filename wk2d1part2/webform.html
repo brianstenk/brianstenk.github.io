@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <section class="container">
+     <form action="" id="my-form">
+         <h1>Add User</h1>
+         <div><label for="email">Email Address</label>
+            <input type="text" id="email">
+            <label for="Privacy" id = "declareText">We'll never share your email with anyone else</label>
+        </div>
+
+        <div><label for="password">Password</label>
+        <input type="text" id="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{10,}" title="Please password field needs to be at least
+        10 characters in length and contain at least one number and one uppercase and lowercase letter">
+        </div>
+
+        <div><label for="url">Enter URL</label>
+        <input type="text" id = "url" pattern= "https?://.+" title="The URL field needs 
+        to be a standard website url, and you must enter it beginning with either the string - http or https" >
+        </div>
+
+        <div id="chkBx1">
+         <p><input type="checkbox" ></p>
+        <label for="checkbox">Check me out</label>
+        </div>
+
+        <input class="btn" type="submit" value="Submit">
+     </form>
+ </section>    
+</body>
+</html>
