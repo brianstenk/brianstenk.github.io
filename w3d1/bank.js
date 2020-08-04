@@ -9,7 +9,7 @@ class Bank {
     addAccount() {
         const account = new Account(Bank.nextNumber);
         Bank.nextNumber++;
-        this._accounts.push(account);
+        this.accounts.push(account);
         return account.getNumber();
       }
       addSavingsAccount(interest) {

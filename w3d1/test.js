@@ -61,21 +61,3 @@ describe('This part tests the functions in the Account Class', () => {
     });
   });
   
-  /*
-  /* this part test the bank account class */
- /* describe('This part test the funcitons in the Bank class', () => {
-    it('Test addAccount method', () => {
-      accounts = [new Account(950), new SavingsAccount(951,2.5), new CheckingAccount(952, -300)];
-      const bank = new Bank(accounts);
-      const newAccount = bank.addAccount();
-      assert.equal(newAccount, 1000);
-    });
-    it('Test closeAccount method', ()=>{
-      accounts = [new Account(950), new SavingsAccount(951,2.5), new CheckingAccount(952, -300)];
-      console.log(accounts);
-      const bank = new Bank(accounts);
-      const account = bank.closeAccount(951);
-      assert.equal(account.getNumber(), 951);
-    });
-  });
-  */
