@@ -1,7 +1,7 @@
 let timer = null;
 function startAnimation(){
     const symbol = ["-","\","/","-"];
-    index = 0;
+   let index = 0;
     function Animator(){
         if(index === 0){
             document.getElementById("spinner").innerHTML = symbol[index];
