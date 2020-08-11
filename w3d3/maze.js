@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 window.onload = function () {
   const backgroundColor = '#EEEEEE';
   const redColor = '#FF8888';
