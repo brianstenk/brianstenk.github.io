@@ -16,7 +16,19 @@ function updateGuests() {
 }
 
 function displayGuests(data) {
-    var guestList = "You need to modify this method to display the updated guest list.  Remember to build the entire list before adding it to the DOM.";
-    $("#guestList").html(guestList);
-    
+	/*$("#guestList").children().remove();
+	let listOfGuest = [];
+	data.forEach((g)=>{
+		let fullName = g.last+","+g.first;
+		let elem = $("<p>",{'text':fullName});
+		listOfGuest.push(elem);
+	});
+
+	$("#guestList").append(listOfGuest);
+	*/
+	let listOfGuest = [];
+
+	$.map(listOfGuest,function () {
+		$("#guestList").append('<h3>'+data.last + '<h3><p>'+data.first +'</p>');
+	});
 }

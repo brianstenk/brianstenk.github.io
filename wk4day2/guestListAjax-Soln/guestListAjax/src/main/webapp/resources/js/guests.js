@@ -23,5 +23,4 @@ function displayGuests(data) {
 		let elem = $("<p>",{'text':fullName});
 		listOfGuest.push(elem);
 	});
-	$("#guestList").append(listOfGuest);
 }

@@ -1,9 +1,7 @@
 <html>
     <head>
         <title>Party Planner</title>
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-                crossorigin="anonymous"> </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="resources/js/guests.js"></script>
     </head>
     <body>
@@ -12,7 +10,7 @@
             <p>Last <input id='last' type='text' name='last'  /></p> 
             <p><input id='send' type='button' value='Send'  /></p>
             <p>Names so far</p>
-            <div id='guestList' > </div>
+            <div id='guestList' ></div>
 
     </body>
 </html>

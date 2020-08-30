@@ -11,6 +11,11 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
+
+/**
+ *
+ * @author levi
+ */
 @WebServlet(name = "guestServlet", urlPatterns = {"*.ajax"})
 public class GuestServlet extends HttpServlet {
 
@@ -43,10 +48,13 @@ public class GuestServlet extends HttpServlet {
         
         String JSONguests;
         JSONguests = new Gson().toJson(guestList);
+        
 
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
         out.write(JSONguests);        
     }
+
+
 
 }
